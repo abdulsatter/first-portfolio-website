@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange{
+    color: orange;
+}
+.half-part{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    text-align: justify;
+    
+}
+.half-part img{
+    width: 100%;
+}
+.top{
+ 
+    background-image: url("tt.jpg");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.button
+{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, #eec06b, #cf381d) ;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+.dream{
+    background-image: url(o.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last-part{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+.experience
+{
+    background-image: url(ex.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#stack{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, #4a4aa3);
+    border-image-slice:1 ;
+}
+#Second{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, #e7ac5e, #e07108);
+    border-image-slice:1 ;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    color: #c29313;
+}
